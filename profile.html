@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+
+    <title> Universiti Teknologi Mara Student Portal </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html"> HOME </a></li>
+                    <li> <a href="about.html"> ABOUT </a></li>
+                    <li> <a href="profile.html"> PROFILE </a></li>
+                    <li> <a href="contact.html"> CONTACT </a></li>
+                    <li> <a href="setting.html"> SETTING </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+<h1> Students Profile </h1>
+    </section>
+
+    <div class="profile-container">
+        <!-- Student 1 -->
+        <div class="profile">
+          <img src="img/jennie1.jpg" alt="Medina Tasnim">
+          <div class="profile-details">
+            <h2> Medina Tasnim </h2>
+            <span>2024988509</span>
+            <span><i class="fa fa-phone"></i> 019-487 1245</span>
+            <span><i class="fa fa-envelope"></i> 2024988509@student.uitm.edu.my</span>
+            <span>Programme: Bachelor of Computer Science (Hons.)</span>
+            <span>Year of Study: 2</span>
+            <span>Supervisor: Dr. Asyraf bin Wahi Anuar</span>
+          </div>
+        </div>
+    
+        <!-- Student 2 -->
+        <div class="profile">
+          <img src="img/jung2.jpg" alt="Amira Zainal">
+          <div class="profile-details">
+            <h2> Sara Hana </h2>
+            <span> 2024123456 </span>
+            <span><i class="fa fa-phone"></i> 019-345 6789</span>
+            <span><i class="fa fa-envelope"></i> 2024123456@student.uitm.edu.my</span>
+            <span>Programme: Bachelor of Engineering (Hons.) Civil</span>
+            <span>Year of Study: 3</span>
+            <span>Supervisor: Dr. Haris bin Azman</span>
+          </div>
+        </div>
+    
+        <!-- Student 3 -->
+        <div class="profile">
+          <img src="img/man3.jpg" alt="Farah Hanis">
+          <div class="profile-details">
+            <h2> Syed Hayden </h2>
+            <span> 2024678901</span>
+            <span><i class="fa fa-phone"></i> 019-567 8901</span>
+            <span><i class="fa fa-envelope"></i> 2024678901@student.uitm.edu.my</span>
+            <span>Programme: Bachelor of Accounting (Hons.)</span>
+            <span>Year of Study: Final Year</span>
+            <span>Supervisor: Dr. Sharifah Fathiah</span>
+          </div>
+        </div>
+    
+        <!-- Student 4 -->
+        <div class="profile">
+          <img src="img/zehaa4.jpg" alt="Hafiz Arif">
+          <div class="profile-details">
+            <h2> Yasmine Sofea </h2>
+            <span> 2024567890 </span>
+            <span><i class="fa fa-phone"></i> 011-234 5678</span>
+            <span><i class="fa fa-envelope"></i> 2024567890@student.uitm.edu.my</span>
+            <span>Programme: Diploma in Mass Communication</span>
+            <span>Year of Study: 1</span>
+            <span>Supervisor: Dr. Razif bin Mohd Zaki</span>
+          </div>
+        </div>
+    
+        <!-- Student 5 -->
+        <div class="profile">
+          <img src="img/man5.jpg" alt="Aisyah Rahman">
+          <div class="profile-details">
+            <h2> Yusoff Aiman </h2>
+            <span> 2024789123</span>
+            <span><i class="fa fa-phone"></i> 012-789 0123</span>
+            <span><i class="fa fa-envelope"></i> 2024789123@student.uitm.edu.my</span>
+            <span>Programme: Bachelor of Infomation Systems (Hons.)</span>
+            <span>Year of Study: 4</span>
+            <span>Supervisor: Prof. Norizan binti Anuar </span>
+          </div>
+        </div>
+      </div>
+    </body>
+    </html>
+
+<!--- footer -->
+<section class ="footer">
+  <h4> Contact </h4>
+  <p> For more Information you can reach us on : </p>
+
+  <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitter"></i>
+  </div>
+</section>
+
+<!-- JS for toggle menu -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right ="0";
+    }
+    function hideMenu () {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
